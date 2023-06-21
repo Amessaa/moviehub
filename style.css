@@ -237,7 +237,7 @@ body {
 }
 
 .container.active {
-  background-color: white;
+  background-color: pink;
 }
 
 .movie-list-title.active {
