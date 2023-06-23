@@ -1,43 +1,32 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="result.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Movie Design</title>
 </head>
 <body>
-
-    <!-- <div class="navbar">
-        <div class="navbar-container">
-            <div class="logo-container">
-                <h1 class="logo">flakes</h1>
-            </div>
-            <div class="menu-container">
-                <ul class="menu-list">
-                    <li class="menu-list-item active">Home</li>
-                    <li class="menu-list-item">Movies</li>
-                    <li class="menu-list-item">Series</li>
-                    <li class="menu-list-item">Popular</li>
-                    <li class="menu-list-item">Trends</li>
-                </ul>          
-            </div> -->
 
             <div class="navbar">
                 <div class="navbar-container">
                     <div class="logo-container">
-                        <img src="img/icons8-movie-80.png" alt = "logo" width = "40px" height="40px">
+                        <i class="fa-solid fa-clapperboard fa-xl" style="color: #ffffff;"></i>
                         <h1 class="logo"><span class="c1">MOVIE</span><span class="c2">HUB</span></h1>
                     </div>
                     <div class="menu-container">
                         <ul class="menu-list">
-                            <li class="menu-list-item active">Home</li>
+                            <li class="menu-list-item " ><a href="index.html">Home</a></li>
                             <li class="menu-list-item">Movies</li>
                             <li class="menu-list-item">Series</li>
                             <li class="menu-list-item">Popular</li>
-                            <li class="menu-list-item">Trends</li>
+                            
                         </ul>          
                     </div>
 
@@ -45,7 +34,7 @@
 
             <div class = "search-container">
                 <div class = "search-element">
-                    <input type = "text" class = "form-control" placeholder="Search..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">   
+                    <input type = "text" class = "form-control" placeholder="What are you looking for?" id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()" style="width: 550px; height: 35px; background-color: #151515;">   
                     <div class = "search-list" id = "search-list">
                 
                     </div>
@@ -84,7 +73,6 @@
             </div>
         </div>
     </div>
-    <!-- end of result container -->
 
 
     <script src="result.js"></script>
