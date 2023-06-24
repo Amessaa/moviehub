@@ -63,7 +63,11 @@ The website is compatible with modern web browsers, including:
 3. Microsoft Edge
 4. Safari
 
+# Some Glimpses
 
+<img width="1440" alt="Screenshot 2023-06-24 at 8 33 20 PM" src="https://github.com/gitkriti19/moviehub/assets/102133817/c2497244-ee05-4d52-9436-9f56576df675">
+<img width="1440" alt="Screenshot 2023-06-24 at 8 33 53 PM" src="https://github.com/gitkriti19/moviehub/assets/102133817/63e7090b-1b01-4a54-971d-8c8daa6ef28a">
+<img width="1439" alt="Screenshot 2023-06-24 at 8 34 13 PM" src="https://github.com/gitkriti19/moviehub/assets/102133817/e36dfb9c-8cce-4c5a-ae89-7cb76085bb5b">
 
 
 
